@@ -1,0 +1,14 @@
+### Actuator
+GET http://localhost:8080/actuator
+
+### Actuator Info
+GET http://localhost:8080/actuator/info
+
+### Actuator Bindings
+GET http://localhost:8080/actuator/bindings
+
+### Actuator Bindings
+GET http://localhost:8080/actuator/channels
+
+
+
