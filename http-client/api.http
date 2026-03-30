@@ -6,3 +6,104 @@ Content-Type: application/json
   "message": "hi",
   "sender": "mugdho"
 }
+
+
+### Send Message
+GET https://api.gleif.org/api/v1/fuzzycompletions?field=entity.legalName&q=couchetard
+Content-Type: application/json
+
+
+### Send Message
+GET https://api.gleif.org/api/v1/entity-legal-forms
+Content-Type: application/json
+
+
+### Send Message
+GET https://api.gleif.org/api/v1/lei-records/549300YQ0JMD5VDZPL70
+Content-Type: application/json
+
+
+### Send Message
+GET https://api.gleif.org/api/v1/lei-records/549300YQ0JMD5VDZPL70/direct-child-relationships
+Content-Type: application/json
+
+
+
+
+### Send Message
+GET https://api.gleif.org/api/v1/lei-records/549300YQ0JMD5VDZPL70/ultimate-child-relationships
+Content-Type: application/json
+
+
+### Send Message
+GET https://api.gleif.org/api/v1/lei-records/549300YQ0JMD5VDZPL70/isins
+Content-Type: application/json
+
+
+
+### Send Message
+GET https://api.gleif.org/api/v1/fields
+Content-Type: application/json
+
+### Send Message
+GET https://api.opencorporates.com/v0.4/companies/search?q=Google&api_token=YOUR_TOKEN
+Content-Type: application/json
+
+### Send Message
+GET https://www.sec.gov/files/company_tickers.json
+Content-Type: application/json
+
+
+### Send Message
+GET https://data.sec.gov/api/xbrl/companyfacts/CIK0001018724.json
+Content-Type: application/json
+User-Agent: 'Individual (myemail@provider.com)'
+
+
+### Send Message
+GET https://www.donneesquebec.ca/recherche/api/action/datastore_search_sql?sql=SELECT * FROM 220c8f6384-63b1-4520-8c05-25af7b69c856  WHERE "Terme_de_recherche" LIKE ‘press%’
+Content-Type: application/json
+
+
+
+### Send Message
+GET https://ised-isde.canada.ca/cbr/srch/api/v1/search?
+    fq=keyword:%7Bcouche-tard%7D
+    &lang=en
+    &queryaction=fieldquery
+    &sortfield=score
+    &sortorder=desc
+Content-Type: application/json
+
+
+### Send Message
+GET https://ised-isde.canada.ca/cbr/srch/api/v1/search?
+    fq=keyword:%7Bcouche-tard%7D+Status_State:Active
+    &location=
+    &lang=fr
+    &queryaction=fieldquery
+    &sortfield=score
+    &sortorder=desc
+Content-Type: application/json
+
+
+### Send Message
+GET https://ised-isde.canada.ca/cbr/srch/api/v1/search?
+    fq=keyword:%7Bcouche-tard%7D+Status_State:Active
+    &location=QC
+    &lang=fr
+    &queryaction=fieldquery
+    &sortfield=score
+    &sortorder=desc
+
+
+### Send Message
+GET https://ised-isde.canada.ca/cbr/srch/api/v1/search?
+    fq=keyword:%7Bcouche-tard%7D+Status_State:Active+MRAS_Entity_Type:BCA
+    &location=QC
+    &lang=fr
+    &queryaction=fieldquery
+    &sortfield=scor
+    e&sortorder=desc
+
+
